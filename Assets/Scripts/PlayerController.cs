@@ -6,17 +6,26 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed;
+    public float timeToSlow;
 
 
     private Vector3 moveInput;
     private Rigidbody rb;
     private Transform camera;
 
+    private float maxSpeed;
+    private float minSpeed;
+    private float timer;
+
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         moveInput = Vector3.zero;
         camera = Camera.main.transform;
+
+        maxSpeed = speed;
+        minSpeed = 0;
+        timer = 0;
     }
 
 
@@ -35,6 +44,17 @@ public class PlayerController : MonoBehaviour
         }
         if(Input.GetKey(KeyCode.D)) {
             moveInput += camera.right;
+        }
+
+
+        // recharge
+        timer += Time.deltaTime;
+        if(Input.GetKey(KeyCode.Space)) {
+            speed = maxSpeed;
+            timer = 0;
+        }
+        else {
+            speed = Mathf.Lerp(maxSpeed, minSpeed, timer / timeToSlow);
         }
     }
 
