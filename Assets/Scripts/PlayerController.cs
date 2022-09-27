@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     private float maxSpeed;
     private float minSpeed;
     private float timer;
+    private Vector3 velocity;
 
     void Start()
     {
@@ -55,6 +56,15 @@ public class PlayerController : MonoBehaviour
         }
         else {
             speed = Mathf.Lerp(maxSpeed, minSpeed, timer / timeToSlow);
+        }
+
+
+        if(Input.GetKeyDown(KeyCode.Space)) {
+            velocity = rb.velocity;
+            rb.velocity = Vector3.zero;
+        }
+        if(Input.GetKeyUp(KeyCode.Space)) {
+            rb.velocity = velocity;
         }
     }
 

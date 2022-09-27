@@ -1114,7 +1114,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9da584c0be7c5c34d8352c4727939028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 3
+  waitTime: 1.5
 --- !u!114 &288385070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1288,7 +1288,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 50}
   m_SizeDelta: {x: 453.85, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &312160616
@@ -1311,17 +1311,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: A long time ago, when I was a child...
+  m_text: "While crossing the pond, one tortoise said to another: \u201CI can\u2019t
+    see into the future.\u201D"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0c2fd697df2b8904784280ff645eabfb, type: 2}
+  m_sharedMaterial: {fileID: -3680633739138349748, guid: 0c2fd697df2b8904784280ff645eabfb, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294956489
-  m_fontColor: {r: 0.7877358, g: 0.8354218, b: 1, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1344,7 +1345,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1481,7 +1482,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9da584c0be7c5c34d8352c4727939028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 3
+  waitTime: 1.5
 --- !u!114 &380242276
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2775,7 +2776,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9da584c0be7c5c34d8352c4727939028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 3
+  waitTime: 1.5
 --- !u!114 &755249211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3731,7 +3732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9da584c0be7c5c34d8352c4727939028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 3
+  waitTime: 1.5
 --- !u!114 &1182881533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4328,8 +4329,12 @@ MonoBehaviour:
   text: {fileID: 312160616}
   background: {fileID: 1952462342}
   narration:
-  - A long time ago, when I was a child...
-  - I wandered into the woods.
+  - "While crossing the pond, one tortoise said to another: \u201CI can\u2019t see
+    into the future.\u201D"
+  - "\u201COf course you can\u2019t see,\u201D the second tortoise said. \u201CHow
+    could you ever see into the future?\u201D"
+  - "\u201CI can\u2019t explain it,\u201D the first said. \u201CBut I could.\u201D
+    The pond shook."
 --- !u!1 &1688030198
 GameObject:
   m_ObjectHideFlags: 0
@@ -4631,7 +4636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9da584c0be7c5c34d8352c4727939028, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  waitTime: 3
+  waitTime: 1.5
 --- !u!1 &1952462342
 GameObject:
   m_ObjectHideFlags: 0
