@@ -18,7 +18,6 @@ public class FallingFloor : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if(other.tag == "Player") {
-            Debug.Log($"{name} got player at {Time.time}");
             rb.useGravity = false;
             Invoke("ActivateGravity", waitTime);
         }
@@ -27,7 +26,6 @@ public class FallingFloor : MonoBehaviour
 
     void ActivateGravity()
     {
-        Debug.Log($"{name} activating gravity at {Time.time}");
         rb.useGravity = true;
         rb.isKinematic = false;
     }

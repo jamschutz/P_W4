@@ -48,15 +48,15 @@ public class PlayerController : MonoBehaviour
         }
 
 
-        // recharge
-        timer += Time.deltaTime;
-        if(Input.GetKey(KeyCode.Space)) {
-            speed = maxSpeed;
-            timer = 0;
-        }
-        else {
-            speed = Mathf.Lerp(maxSpeed, minSpeed, timer / timeToSlow);
-        }
+        // // recharge
+        // timer += Time.deltaTime;
+        // if(Input.GetKey(KeyCode.Space)) {
+        //     speed = maxSpeed;
+        //     timer = 0;
+        // }
+        // else {
+        //     speed = Mathf.Lerp(maxSpeed, minSpeed, timer / timeToSlow);
+        // }
 
 
         if(Input.GetKeyDown(KeyCode.Space)) {
