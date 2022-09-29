@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class RestartGame : MonoBehaviour
+public class RestartOnFall : MonoBehaviour
 {
+    public float heightThreshold;
+
+
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.R)) {
+        if(transform.position.y < heightThreshold) {
             SceneManager.LoadScene(1);
         }
     }

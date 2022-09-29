@@ -5617,6 +5617,7 @@ GameObject:
   - component: {fileID: 1450896106}
   - component: {fileID: 1450896111}
   - component: {fileID: 1450896110}
+  - component: {fileID: 1450896112}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5730,6 +5731,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
+--- !u!114 &1450896112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1450896105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95f9a800385f8c041a1c9240003c1105, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  heightThreshold: -25
 --- !u!1 &1630282136
 GameObject:
   m_ObjectHideFlags: 0
@@ -5853,8 +5867,6 @@ MonoBehaviour:
     storm.
   - For forty days the storm fumed over greenwoods and aster leaves, and brought
     them to the boughs of a graveyard.
-  - <i>What is this?</i>  they said to themselves, watching the wraith of its hoary
-    shadow slither over the melting air.
   - 'And they had a vision: an old snowman going off into the mountains, saying something
     through the fog that the wind snatched up.'
   - 'Something to do with an ancient memory: suppers with polar bears, demons in
@@ -7394,6 +7406,30 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1450896105}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 107772880}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
 --- !u!1 &1974776922
 GameObject:
