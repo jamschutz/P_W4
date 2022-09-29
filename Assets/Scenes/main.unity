@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 8a3e45ef69fb8f64bb322b5e7ead5d3e, type: 2}
   m_LightingSettings: {fileID: 721489125}
 --- !u!196 &4
 NavMeshSettings:
@@ -5519,7 +5519,14 @@ MonoBehaviour:
   text: {fileID: 312160616}
   background: {fileID: 1952462342}
   narration:
-  - Text will go here...
+  - In those days, she thought of home.
+  - Home, with its thousand eyelids of rooftops and water beams.
+  - Where the shudder of train stations stared through walls.
+  - But once she had left it, what struck her as catastrophe became monuments to
+    a time and place unreachable.
+  - She felt, for the first time, that it was a part of her, and in leaving it, it
+    was like she had locked that part of herself within the innermost reaches of
+    the soul, in a place unknown.
 --- !u!1 &1646806328
 GameObject:
   m_ObjectHideFlags: 0
@@ -6701,7 +6708,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955366004}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.14000034, z: -1.1000061}
+  m_LocalPosition: {x: 0, y: 0.14000034, z: 2.03}
   m_LocalScale: {x: 0.61094, y: 0.73148, z: 1}
   m_Children: []
   m_Father: {fileID: 860622624}
