@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You Win!
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0c2fd697df2b8904784280ff645eabfb, type: 2}
   m_sharedMaterial: {fileID: -3680633739138349748, guid: 0c2fd697df2b8904784280ff645eabfb, type: 2}
@@ -1422,8 +1422,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 50}
-  m_SizeDelta: {x: 453.85, y: 50}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 460.69, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &312160616
 MonoBehaviour:
@@ -1445,8 +1445,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "While crossing the pond, one tortoise said to another: \u201CI can\u2019t
-    see into the future.\u201D"
+  m_text: 'And, standing there in the snow, they felt like everything inside of them
+    was spilling onto the grass: Ropes and barbecue. Glasses of water.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0c2fd697df2b8904784280ff645eabfb, type: 2}
   m_sharedMaterial: {fileID: -3680633739138349748, guid: 0c2fd697df2b8904784280ff645eabfb, type: 2}
@@ -1473,15 +1473,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 32
+  m_fontSizeBase: 32
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
   m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -2378,6 +2378,81 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &687667401
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 687667404}
+  - component: {fileID: 687667403}
+  - component: {fileID: 687667402}
+  m_Layer: 5
+  m_Name: Background (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &687667402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687667401}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &687667403
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687667401}
+  m_CullTransparentMesh: 1
+--- !u!224 &687667404
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 687667401}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1630282140}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &693302643
 GameObject:
   m_ObjectHideFlags: 0
@@ -5750,6 +5825,7 @@ RectTransform:
   - {fileID: 1952462343}
   - {fileID: 312160615}
   - {fileID: 281828166}
+  - {fileID: 687667404}
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5773,14 +5849,26 @@ MonoBehaviour:
   text: {fileID: 312160616}
   background: {fileID: 1952462342}
   narration:
-  - In those days, she thought of home.
-  - Home, with its thousand eyelids of rooftops and water beams.
-  - Where the shudder of train stations stared through walls.
-  - But once she had left it, what struck her as catastrophe became monuments to
-    a time and place unreachable.
-  - She felt, for the first time, that it was a part of her, and in leaving it, it
-    was like she had locked that part of herself within the innermost reaches of
-    the soul, in a place unknown.
+  - A long time ago, before all of this, two snowmen were traveling through a winter
+    storm.
+  - For forty days the storm fumed over greenwoods and aster leaves, and brought
+    them to the boughs of a graveyard.
+  - <i>What is this?</i>  they said to themselves, watching the wraith of its hoary
+    shadow slither over the melting air.
+  - 'And they had a vision: an old snowman going off into the mountains, saying something
+    through the fog that the wind snatched up.'
+  - 'Something to do with an ancient memory: suppers with polar bears, demons in
+    ice.'
+  - Saying something to do with oblivion.
+  - The next day, the storm passed. They found themselves deep in a volcanic valley.
+    They found themselves alone, and lost, and frightened.
+  - 'But the vision came to them again: an old snowman going off into the mountains,
+    saying something through the fog that the wind snatched up.'
+  - 'Something to do, yes, with an ancient memory: supper with polar bears, demons
+    in ice.'
+  - "Something, it\u2019s true, of oblivion."
+  - "<i>Let\u2019s go, then</i>, they said to themselves. And where they went has
+    been lost."
 --- !u!1 &1646806328
 GameObject:
   m_ObjectHideFlags: 0
@@ -7293,9 +7381,9 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
-          m_BoolArgument: 1
+          m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 281828165}
+      - m_Target: {fileID: 687667401}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
